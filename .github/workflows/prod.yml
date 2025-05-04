@@ -3,10 +3,8 @@ name: Web Application Deployment
 on: [push]
 
 permissions:
-      id-token: write
-      contents: read
-
-name: Node.js
+  id-token: write
+  contents: read
 
 env:
   AZURE_WEBAPP_NAME: terraform-service-app   # Set this to your application's name
